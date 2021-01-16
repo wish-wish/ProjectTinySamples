@@ -6,13 +6,52 @@
         {
             "$type": "Unity.Build.DotsRuntime.DotsRuntimeBuildProfile, Unity.Build.DotsRuntime",
             "Target": "android_armv7",
-            "Configuration": 2,
+            "Configuration": 3,
             "UseNewPipeline": false,
             "PipelineConstructor": null
         },
         {
-            "$type": "Unity.Build.Android.ApplicationIdentifier, Unity.Build.Android",
+            "$type": "Unity.Build.Common.ApplicationIdentifier, Unity.Build",
             "PackageName": "com.unity.TinyRacing"
+        },
+        {
+            "$type": "Unity.Build.Android.AndroidArchitectures, Unity.Build.Android",
+            "Architectures": 2
+        },
+        {
+            "$type": "Unity.Build.Common.ScreenOrientations, Unity.Build",
+            "DefaultOrientation": 4,
+            "AllowAutoRotateToPortrait": false,
+            "AllowAutoRotateToReversePortrait": false,
+            "AllowAutoRotateToLandscape": true,
+            "AllowAutoRotateToReverseLandscape": false
+        },
+        {
+            "$type": "Unity.Build.Common.SceneList, Unity.Build",
+            "$version": 1,
+            "BuildCurrentScene": false,
+            "SceneInfos": [
+                {
+                    "Scene": "GlobalObjectId_V1-1-ead95ae8a6288294c98220eeaff82fe6-102900000-0",
+                    "AutoLoad": true
+                }
+            ]
+        },
+        {
+            "$type": "Unity.Tiny.Rendering.Settings.TinyRenderingSettings, Unity.Tiny.Rendering.Authoring",
+            "WindowSize": {
+                "x": 1920,
+                "y": 1080
+            },
+            "RenderResolution": {
+                "x": 1920,
+                "y": 1080
+            },
+            "RenderGraphMode": 1,
+            "MaxResolution": 2048,
+            "AutoResizeFrame": false,
+            "DisableVsync": true,
+            "GPUSkinning": false
         }
     ]
 }
