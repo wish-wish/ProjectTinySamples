@@ -91,7 +91,7 @@ Demonstrates Particle System the first iteration of the particle system which mi
 ## RuntimeGeometry3D
 Demonstrates how to do Dynamic meshes creation at runtime. 
 <p align="center"> 
-    <img src="./res/DynamicMesh.gif">
+    <img src="./res/RuntimeGeometry3D.gif">
 </p>
 <p align="center"> 
     <a href="https://tiny.vision/demos/RuntimeGeometry3D">
